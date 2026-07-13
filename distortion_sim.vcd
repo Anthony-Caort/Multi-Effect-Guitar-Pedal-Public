@@ -1,0 +1,169 @@
+$date
+	Fri Jun 05 18:03:09 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_distortion $end
+$var wire 1 ! s_ready $end
+$var wire 1 " m_valid $end
+$var wire 1 # m_last $end
+$var wire 32 $ m_data [31:0] $end
+$var reg 1 % clk $end
+$var reg 1 & d_enable $end
+$var reg 1 ' m_ready $end
+$var reg 1 ( resetn $end
+$var reg 32 ) s_data [31:0] $end
+$var reg 1 * s_last $end
+$var reg 1 + s_valid $end
+$scope module dut $end
+$var wire 1 % clk $end
+$var wire 1 & d_enable $end
+$var wire 1 ' m_ready $end
+$var wire 1 ( resetn $end
+$var wire 32 , s_data [31:0] $end
+$var wire 1 * s_last $end
+$var wire 1 ! s_ready $end
+$var wire 1 + s_valid $end
+$var wire 24 - initial_audio [23:0] $end
+$var parameter 24 . LOWER_THRESHOLD $end
+$var parameter 24 / UPPER_THRESHOLD $end
+$var reg 32 0 m_data [31:0] $end
+$var reg 1 # m_last $end
+$var reg 1 " m_valid $end
+$upscope $end
+$scope task send_sample $end
+$var reg 32 1 data_payload [31:0] $end
+$var reg 1 2 last_bit $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000000000000000000 /
+b111111000000000000000000 .
+$end
+#0
+$dumpvars
+x2
+bx 1
+bx 0
+b0 -
+b0 ,
+0+
+0*
+b0 )
+0(
+1'
+1&
+0%
+bx $
+x#
+x"
+0!
+$end
+#22130
+0#
+0"
+b0 $
+b0 0
+1%
+#44260
+0%
+#66390
+1%
+#88520
+0%
+#110650
+1!
+1(
+1%
+#132780
+0%
+#154910
+b1000000000000 -
+1+
+b1000000000000 )
+b1000000000000 ,
+02
+b1000000000000 1
+1%
+#177040
+0%
+#199170
+1"
+b1000000000000 $
+b1000000000000 0
+1%
+#200170
+b0 -
+b0 )
+b0 ,
+0+
+#221300
+0%
+#243430
+0"
+1%
+#244430
+b1010000000000000000 -
+1+
+b10101010000001010000000000000000 )
+b10101010000001010000000000000000 ,
+b10101010000001010000000000000000 1
+#265560
+0%
+#287690
+1"
+b10101010000001000000000000000000 $
+b10101010000001000000000000000000 0
+1%
+#288690
+b0 -
+b0 )
+b0 ,
+0+
+#309820
+0%
+#331950
+0"
+1%
+#332950
+b111110100000000000000000 -
+1*
+1+
+b111110100000000000000000 )
+b111110100000000000000000 ,
+12
+b111110100000000000000000 1
+#354080
+0%
+#376210
+1#
+1"
+b111111000000000000000000 $
+b111111000000000000000000 0
+1%
+#377210
+b0 -
+b0 )
+b0 ,
+0*
+0+
+#398340
+0%
+#420470
+0"
+1%
+#442600
+0%
+#464730
+1%
+#486860
+0%
+#508990
+1%
+#521470

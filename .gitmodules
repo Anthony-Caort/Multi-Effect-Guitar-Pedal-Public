@@ -1,0 +1,6 @@
+[submodule "FinalLab_Pico/include/lvgl"]
+	path = FinalLab_Pico/include/lvgl
+	url = https://github.com/lvgl/lvgl.git
+[submodule "GuitarPedal_pico/include/lvgl"]
+	path = GuitarPedal_pico/include/lvgl
+	url = https://github.com/lvgl/lvgl.git
